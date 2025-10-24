@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIyOjU0OjA1LjAwMTIyNCIsInVzZXJfaWQiOiJlMTBkODQ5NS02NTMyLTQ0YjAtODRiNC0yODU4Yjk1Y2E5MTkifQ.2O5mp-2kRuBLXGxbdmxAWVBcyb25p7VC3300OKqTw7w' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need yard technology when.","maxScore":60,"minScore":24,"description":"Term item result color structure meeting better high during two.","previewFileId":"18578943-d7f4-4ecc-891c-9a047232feab","estimatedTime":"3 weeks","createdByUserId":"e10d8495-6532-44b0-84b4-2858b95ca919"}'

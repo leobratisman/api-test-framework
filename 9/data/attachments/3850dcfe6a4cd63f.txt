@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIyOjU0OjAwLjEwMTcyMCIsInVzZXJfaWQiOiI0NTdlMjMzMS0xNDQyLTQzNGYtYmFmZi0zNmM3NjYwMGMwMTYifQ.l1JGIj5z9p954HPkbCeNmGFscO0iQHJSDMtCH1GPTow' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First grow population face.","maxScore":58,"minScore":30,"description":"See hard top professional hope drug safe central let night important produce happy must character drug have view company.","previewFileId":"bd575180-2188-4571-85a6-b5d06c75ccc8","estimatedTime":"2 weeks","createdByUserId":"457e2331-1442-434f-baff-36c76600c016"}'

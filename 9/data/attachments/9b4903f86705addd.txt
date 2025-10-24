@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIyOjUzOjU5LjExOTgxOSIsInVzZXJfaWQiOiI5M2RhMTI0YS0zYmY2LTQ3NjYtYWVkMC04YTk1YjI3MmUzNzIifQ.Gc0zchbFiex8u2QViJrRIvcwlHEgW2eVd1SRwYMlXEM' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask fire process report score.","maxScore":73,"minScore":16,"description":"Born action protect matter cut move sing effect rich word short man political somebody market soldier myself ever official this debate.","previewFileId":"ce01622b-55c3-4a73-97fb-8f1f2e1f16f0","estimatedTime":"5 weeks","createdByUserId":"93da124a-3bf6-4766-aed0-8a95b272e372"}'

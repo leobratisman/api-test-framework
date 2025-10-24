@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIyOjUzOjU3LjMzODkyNCIsInVzZXJfaWQiOiIyODM3ZDExNS0yNWRmLTRiNTItYWY3Ny1lZTlkYzhkZGIwMTgifQ.z-jMxrt5L3d4ZJod_n24ChaMgiwhaBEowP8RSEKj8hE' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word often ground animal.","maxScore":71,"minScore":24,"description":"Notice prepare discuss behavior hair little identify affect behavior four pressure mission.","previewFileId":"623f1996-eff8-406c-bb38-3907f1250cd5","estimatedTime":"6 weeks","createdByUserId":"2837d115-25df-4b52-af77-ee9dc8ddb018"}'

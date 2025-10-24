@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIyOjUzOjU5LjM5MzMwMCIsInVzZXJfaWQiOiJhZGUyMDE4Yy02NzQ5LTRmZDctYWYzZS1kZmZjMmEwMDdhNDIifQ.7Cd3tCxXeDjOaRbWwpgecvBWEulmCIEBiu5IuZmrMGM' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"State whom behavior.","maxScore":90,"minScore":27,"description":"Push decision among book might according able radio us receive after head know use tax cold weight.","previewFileId":"604dc061-e339-4bc9-baf5-59662646781f","estimatedTime":"4 weeks","createdByUserId":"ade2018c-6749-4fd7-af3e-dffc2a007a42"}'

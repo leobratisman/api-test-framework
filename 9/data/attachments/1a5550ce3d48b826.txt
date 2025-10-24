@@ -1,0 +1,64 @@
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/users
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/files
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/courses
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:16 Make GET request to http://127.0.0.1:8000/api/v1/exercises?courseId=5b934538-798c-4c60-949a-a1651b7a3a8c
+INFO     httpx:_client.py:1025 HTTP Request: GET http://127.0.0.1:8000/api/v1/exercises?courseId=5b934538-798c-4c60-949a-a1651b7a3a8c "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises?courseId=5b934538-798c-4c60-949a-a1651b7a3a8c
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     EXERCISES ASSERTIONS:exercises.py:58 Check get exercises response
+INFO     EXERCISES ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to 'ca44bfa3-39d3-46ad-8f05-2beeb786dd12'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Play should edge career.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'course_id' equals to '5b934538-798c-4c60-949a-a1651b7a3a8c'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '55'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '21'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'Cup business air about name authority professional cut since prevent summer even relationship.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'order_index' equals to '8'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '4 weeks'
+INFO     EXERCISES ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to 'f49677d0-3e9a-4a72-8289-d26cb8f0b287'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Bit show almost herself light.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'course_id' equals to '5b934538-798c-4c60-949a-a1651b7a3a8c'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '79'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '29'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'Shake to wrong bad probably success your leave ago brother quickly little carry spend few special.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'order_index' equals to '20'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '6 weeks'
+INFO     EXERCISES ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to 'd867edb2-6167-46ae-83c2-c22e4fd4be2c'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Law stay city.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'course_id' equals to '5b934538-798c-4c60-949a-a1651b7a3a8c'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '87'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '19'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'Wind decide left indicate alone population us maybe camera happy study region TV growth note avoid.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'order_index' equals to '21'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '4 weeks'

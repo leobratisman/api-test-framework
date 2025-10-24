@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/1d53fb6e-8056-4463-aea8-d85972864794' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDIyOjU0OjAzLjQ5NzQyOSIsInVzZXJfaWQiOiI0ZTEzZGY0My0zZjg2LTRkMzUtODc0Yi0xYWMxNDdlYjE2ZWQifQ.5n699zti86z-6X-l-umVtx9ZfrIVkK1_aFsTw_NLOn0' \
+  -H 'content-length: 233' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Benefit three.","maxScore":83,"minScore":21,"orderIndex":8,"description":"Work situation college officer weight south will of after cell argue decade real particular decide information team last.","estimatedTime":"6 weeks"}'
