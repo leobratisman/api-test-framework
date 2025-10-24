@@ -54,27 +54,24 @@ jobs:
           retention-days: 1
 
   publish-report:
-    needs: run-tests
+    if: always()
+    needs: [run-tests]
     runs-on: ubuntu-latest
+
     steps:
-      - name: Download allure results
-        uses: actions/download-artifact@v5
-        with:
-          name: allure-results
-          path: allure-results
-
-      - name: Посмотреть результат allure
-        run: ls -l allure-results
-
-      - name: Get Allure history
-        uses: actions/checkout@v5
-        if: always()
-        continue-on-error: true
+      - name: Check out repository
+        uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Generates Allure Report with history
+      - name: Download Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+      - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.12
         if: always()
         with:
