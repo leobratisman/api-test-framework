@@ -1,0 +1,90 @@
+name: API tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+
+      - name: Install dependencies
+        run: poetry install --no-root
+
+      - name: Start a test server
+        env:
+          APP_HOST: "http://localhost:8000"
+          DATABASE_URL: "sqlite+aiosqlite:///./local.db"
+          JWT_ALGORITHM: "HS256"
+          JWT_SECRET_KEY: "some-your-secret-key"
+          JWT_ACCESS_TOKEN_EXPIRE: 1800
+          JWT_REFRESH_TOKEN_EXPIRE: 5184000
+        run: uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
+
+      - name: Run API tests with pytest and generate Allure results
+        env:
+          API_BASE_URL: http://127.0.0.1:8000/api/v1
+          API_AUTH_URL: http://127.0.0.1:8000/api/v1/authentication
+          TIMEOUT: 2
+          TEST_DATA_DIR: .qa/static/
+        run: |
+          poetry run pytest -m regress --alluredir=allure-results --numprocesses 2
+
+      - name: "Upload allure results"
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: .qa/allure-results
+          retention-days: 1
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download allure results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+          path: allure-results
+
+      - name: Посмотреть результат allure
+        run: ls -l allure-results
+
+      - name: Get Allure history
+        uses: actions/checkout@v5
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Generates Allure Report with history
+        uses: simple-elf/allure-report-action@v1.12
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
