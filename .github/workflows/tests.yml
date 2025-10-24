@@ -35,7 +35,7 @@ jobs:
           JWT_SECRET_KEY: "some-your-secret-key"
           JWT_ACCESS_TOKEN_EXPIRE: 1800
           JWT_REFRESH_TOKEN_EXPIRE: 5184000
-        run: uvicorn main:app --host 0.0.0.0 --port 8000
+        run: poetry run uvicorn main:app --host 0.0.0.0 --port 8000
 
       - name: Run API tests with pytest and generate Allure results
         env:
