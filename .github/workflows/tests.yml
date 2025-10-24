@@ -44,13 +44,13 @@ jobs:
           TIMEOUT: 2
           TEST_DATA_DIR: ./qa/static/
         run: |
-          poetry run pytest qa -m regress --alluredir=./qa/allure-results --numprocesses 2
+          poetry run pytest qa -m regress --alluredir=./allure-results --numprocesses 2
 
       - name: "Upload allure results"
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
-          path: ./qa/allure-results
+          path: allure-results
           retention-days: 1
 
   publish-report:
