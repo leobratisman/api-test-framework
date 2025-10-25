@@ -1,4 +1,4 @@
-# API to automate by tests
+# Test framework (API)
 
 ## Install Poetry
 
