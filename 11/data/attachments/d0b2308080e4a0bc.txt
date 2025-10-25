@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjEwLjE1MDI0OSIsInVzZXJfaWQiOiIyNDBlZmRjOS1jNTNiLTQ5MzQtYTY4Zi1lMDg0MzU0ZThlYjkifQ.AxSQAFn_Wjz2sIH0XnLOLqqPGqnerQOD_eeh4OIGFM4' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim single grow continue.","maxScore":91,"minScore":28,"description":"News performance their individual middle speak through nice tough gun out message loss speak.","previewFileId":"e73649aa-b47a-42ba-9479-1a760cb05dc2","estimatedTime":"7 weeks","createdByUserId":"240efdc9-c53b-4934-a68f-e084354e8eb9"}'

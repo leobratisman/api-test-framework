@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjA1LjA2NDM5NCIsInVzZXJfaWQiOiIyZWU2OTgxNi01OWRhLTRjNTAtYjg4Yy1jY2Q0OGQwNDJlNWMifQ.v_O91G2GGDBEYpjva1tEncCCDCG8VhVS6C_WNEoC3zo' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court have impact shoulder half.","maxScore":76,"minScore":28,"description":"Nice have put name work energy especially product among account recognize country continue.","previewFileId":"ee6b49f2-2b97-41b2-b94e-f7f28865b88d","estimatedTime":"3 weeks","createdByUserId":"2ee69816-59da-4c50-b88c-ccd48d042e5c"}'

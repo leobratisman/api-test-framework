@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjA5LjE0MzI5NiIsInVzZXJfaWQiOiJlZGM4OTBiNy00YjVhLTQ2MzQtYjkxZC0yZjBiMjcyZDA5MDAifQ.3HgSSutcW0CnJad1EK7C_C0vo94rUptTbcJLctytLsU' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody ahead.","courseId":"489e688e-f14d-46bd-941e-05e8f4295582","maxScore":100,"minScore":23,"orderIndex":2,"description":"Try set chance population truth I imagine skill to doctor account discuss commercial.","estimatedTime":"2 weeks"}'

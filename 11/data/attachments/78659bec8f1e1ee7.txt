@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjA5LjQwNDY2OCIsInVzZXJfaWQiOiIwNGIxMTNkNy1iMWFjLTQ4ZTAtODY0OC1kYzg4ZmY3OTE2YmYifQ.wyQrciSqxu9pr58BRUXXm4UwWaKufJohWVbVtdZIau4' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Early light message story system.","courseId":"1d2725be-efb2-4e08-ad1c-221f4a256c96","maxScore":65,"minScore":21,"orderIndex":22,"description":"Real prevent bit account person soon discussion until project worry beautiful sense.","estimatedTime":"4 weeks"}'

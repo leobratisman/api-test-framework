@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjA3LjA0NTc1OSIsInVzZXJfaWQiOiIyMTc3NGNjYy1iMWM5LTQxZjktOTNlNC0wOTQ3NjdiNmY4NzEifQ.sCPpEdgOyhHVb00emONqOcPSyWuTwcOxHPgS-0bP-c4' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consider office describe less.","maxScore":56,"minScore":13,"description":"Yeah suddenly party north build cut represent ahead history art job investment other whom environmental human.","previewFileId":"d046b45f-08ec-44ac-8f09-82ba9f7dbafb","estimatedTime":"2 weeks","createdByUserId":"21774ccc-b1c9-41f9-93e4-094767b6f871"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjA5LjQwNDY2OCIsInVzZXJfaWQiOiIwNGIxMTNkNy1iMWFjLTQ4ZTAtODY0OC1kYzg4ZmY3OTE2YmYifQ.wyQrciSqxu9pr58BRUXXm4UwWaKufJohWVbVtdZIau4' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change because international tell.","maxScore":81,"minScore":19,"description":"Go animal weight because good box late school case force attack evening site.","previewFileId":"9c0f457f-4d0c-426e-a86e-deb1f4ad9ee8","estimatedTime":"9 weeks","createdByUserId":"04b113d7-b1ac-48e0-8648-dc88ff7916bf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjExLjM3NDMyOSIsInVzZXJfaWQiOiIyNDRlMjk2MS05MzI4LTRhNjItODc5OC04M2ZmODIwZDhhODcifQ._uWr--bxkVSrmmni-IKjZIBhBH_OrSnPFPkXduahXo0' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget case bag.","maxScore":73,"minScore":16,"description":"Participant new resource bring until on Mrs find animal call light over house room view side fact clear blue write.","previewFileId":"adcb9ce5-c4db-4e6a-80b9-52d95f0f362f","estimatedTime":"8 weeks","createdByUserId":"244e2961-9328-4a62-8798-83ff820d8a87"}'

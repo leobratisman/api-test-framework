@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjA3Ljk0OTczMyIsInVzZXJfaWQiOiI3MTdmMjlkOS03OTUyLTQzMjYtOGQxOC0wZmFmYzhjZmYyZmIifQ.8MDZonaDZw0fFAcXtHm-rEFY430EFWkMhWeOTp5nkLc' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant morning everybody.","maxScore":87,"minScore":13,"description":"Benefit bit low community suggest war have argue view heavy guess.","previewFileId":"67e85eba-368e-4aaf-9bdc-a6248604225f","estimatedTime":"7 weeks","createdByUserId":"717f29d9-7952-4326-8d18-0fafc8cff2fb"}'

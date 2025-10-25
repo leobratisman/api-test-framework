@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/cfdb5726-c064-472b-8d78-43882cc4316d' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ0OjEwLjE1MDI0OSIsInVzZXJfaWQiOiIyNDBlZmRjOS1jNTNiLTQ5MzQtYTY4Zi1lMDg0MzU0ZThlYjkifQ.AxSQAFn_Wjz2sIH0XnLOLqqPGqnerQOD_eeh4OIGFM4' \
+  -H 'content-length: 227' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite kid support head magazine.","maxScore":62,"minScore":18,"orderIndex":6,"description":"Pretty remain any off girl keep economy fine her risk sense beat yet picture Mr natural anything.","estimatedTime":"9 weeks"}'
