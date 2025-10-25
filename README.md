@@ -54,7 +54,7 @@ TEST_DATA_DIR=./qa/static/
 uvicorn main:app --reload
 ```
 
-## Run API-test
+## Run API-tests
 
 ```shell
 poetry run pytest qa
