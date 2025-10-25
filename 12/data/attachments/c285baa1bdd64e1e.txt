@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjI4Ljk2Mzk1OSIsInVzZXJfaWQiOiJlNzEwMGZkYS1lYWU4LTRkYTItYTNlMS1kOTNjOGU0OGE4NGMifQ.V2mpkgRqjGVaQyJ1a8cOKEb1cLL5uGuztVh1v1qPeMY' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democratic necessary single.","maxScore":82,"minScore":21,"description":"Tend foot most fire pretty authority light yeah final order.","previewFileId":"b0de668e-aaae-4315-afd1-04f4b9f15f69","estimatedTime":"8 weeks","createdByUserId":"e7100fda-eae8-4da2-a3e1-d93c8e48a84c"}'

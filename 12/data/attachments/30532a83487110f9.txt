@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjI2LjI3MTM3OSIsInVzZXJfaWQiOiJjZThmMDAwZS01MTllLTRmZWQtOTdmMy00ZWNlMGUzZmEwNmEifQ.83RYMGwlODmr-ElPn5CuqeuHy96hHbQg0KCl7dn6jco' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Short memory eat.","maxScore":50,"minScore":12,"description":"Prevent usually west military could eight boy able sit bed between special performance thank parent.","previewFileId":"763d0d21-9426-41ae-8497-a5c40e3651ff","estimatedTime":"4 weeks","createdByUserId":"ce8f000e-519e-4fed-97f3-4ece0e3fa06a"}'

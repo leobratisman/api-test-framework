@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjMwLjI4NTQ2MyIsInVzZXJfaWQiOiJiMDdlODNiMi0xZjM3LTRiNDAtYWQ0NS1jMTZmNDE5MjkxMmYifQ.P61B4Kfi4Zp9S20yH19qJalk7jYXK2UMrn5vp5P-STw' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be over adult.","courseId":"4e8060e5-7fa1-4256-a19b-df3063add22c","maxScore":72,"minScore":16,"orderIndex":21,"description":"Wide everyone nearly receive join never build enter fast activity officer her relationship get gas include another him another mean.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjI3LjYzNjU1NSIsInVzZXJfaWQiOiJkNzZiMTlmNS03OTIyLTQ0MjEtYmYyOS00MTVlY2Y2MTRkMTQifQ.xxEAlbFajRYnM3xhfcE1jsTZ7p6y_RR1f4t_pyOAIas' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A seven every wind require.","maxScore":88,"minScore":24,"description":"Rise range adult model pick consumer consumer control especially whatever explain anything agent school military challenge until itself outside.","previewFileId":"9696cab0-4d61-451f-9e96-b9ff0428afa2","estimatedTime":"4 weeks","createdByUserId":"d76b19f5-7922-4421-bf29-415ecf614d14"}'

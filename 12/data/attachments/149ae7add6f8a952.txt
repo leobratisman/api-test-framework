@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjI2LjI3MTM3OSIsInVzZXJfaWQiOiJjZThmMDAwZS01MTllLTRmZWQtOTdmMy00ZWNlMGUzZmEwNmEifQ.83RYMGwlODmr-ElPn5CuqeuHy96hHbQg0KCl7dn6jco' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon everyone loss catch performance.","maxScore":98,"minScore":23,"description":"Benefit always service only study number instead her pattern drug family ability scene I produce.","previewFileId":"763d0d21-9426-41ae-8497-a5c40e3651ff","estimatedTime":"9 weeks","createdByUserId":"ce8f000e-519e-4fed-97f3-4ece0e3fa06a"}'

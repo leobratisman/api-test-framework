@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjI4LjI2OTU0OCIsInVzZXJfaWQiOiIxYjliYWM1Yy1iMjAzLTQxNzMtOWY1Yi04Njc3MGM0NDEyZTMifQ.ZwEtine--DWi1CcZ4u9EHecWXVe665VcEC297MJI9qI' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College wind minute commercial.","maxScore":63,"minScore":15,"description":"Then watch rock garden food kind resource year its day write piece Congress evidence they force reality responsibility evening.","previewFileId":"58d39ab8-2374-4168-b92d-08188224c820","estimatedTime":"5 weeks","createdByUserId":"1b9bac5c-b203-4173-9f5b-86770c4412e3"}'

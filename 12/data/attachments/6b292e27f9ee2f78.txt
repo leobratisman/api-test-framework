@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjMwLjI4NTQ2MyIsInVzZXJfaWQiOiJiMDdlODNiMi0xZjM3LTRiNDAtYWQ0NS1jMTZmNDE5MjkxMmYifQ.P61B4Kfi4Zp9S20yH19qJalk7jYXK2UMrn5vp5P-STw' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim more fill community.","maxScore":55,"minScore":25,"description":"No deep possible trade step lot chair large environment name property edge article traditional minute article middle world.","previewFileId":"937fe8ab-0f5c-4380-8d96-2cbca52bffff","estimatedTime":"9 weeks","createdByUserId":"b07e83b2-1f37-4b40-ad45-c16f4192912f"}'

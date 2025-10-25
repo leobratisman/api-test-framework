@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQ1OjI5LjU1NTYzOCIsInVzZXJfaWQiOiJjOWE4YmY3NC1iMThjLTRkMDYtYTc5My1jMWJlYzkyOTc3ODkifQ.VCq8728Oos1K0MhNKathatKWOuAqXzHvqJIqJTs9mAo' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet model interesting.","maxScore":95,"minScore":13,"description":"Something still example high adult coach price high popular every effect no provide.","previewFileId":"46c3c9b5-2c3e-482e-a04c-619c6d4600c3","estimatedTime":"5 weeks","createdByUserId":"c9a8bf74-b18c-4d06-a793-c1bec9297789"}'
