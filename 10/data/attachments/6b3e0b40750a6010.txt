@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM3LjkwNDg1MSIsInVzZXJfaWQiOiI5YWQ1ZDNkNi00NjU2LTQ1YzgtODYyYy1lZjdkMmU2YTk1YWMifQ.pGdlT7DSLSZvnUGKgwWAk1nXeXhTd7PvDuX9q3z1AtU' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management happy effort field coach.","maxScore":57,"minScore":13,"description":"Too majority check my second for produce avoid scientist live sure from carry news drive use.","previewFileId":"abd81c76-f25b-47b6-8225-fb94e247b354","estimatedTime":"7 weeks","createdByUserId":"9ad5d3d6-4656-45c8-862c-ef7d2e6a95ac"}'

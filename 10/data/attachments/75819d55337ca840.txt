@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM2LjU2Nzk2MCIsInVzZXJfaWQiOiIxZDEyZThjMy0yNWMzLTQ1MTMtYjgyMC05ZTJjNWI5YmYxZWIifQ._tftMhZ7O6gmlFctfj4E0KLRXdu-D3mJUK7rJmuK4Ag' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish road.","maxScore":54,"minScore":16,"description":"Political letter himself generation from difficult into job goal court tax.","previewFileId":"0812df63-0641-4e2a-85dc-ee33bfe4970b","estimatedTime":"5 weeks","createdByUserId":"1d12e8c3-25c3-4513-b820-9e2c5b9bf1eb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM0LjI5NjQ0MSIsInVzZXJfaWQiOiJlMjg2MmRhYS1jZTM2LTRmMjMtOGE1Mi04MWMwNDQ3MmFiNWUifQ.sF-CBsXjmQZ1dSZ6kpaLlZYwo08r0RpnAPZsnAlrw7c' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perhaps against medical.","maxScore":92,"minScore":27,"description":"Message happen close lawyer dog decade meeting city hospital.","previewFileId":"7d78c5bc-0453-417e-a3e0-79cc0781ea98","estimatedTime":"10 weeks","createdByUserId":"e2862daa-ce36-4f23-8a52-81c04472ab5e"}'

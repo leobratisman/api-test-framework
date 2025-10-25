@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM1Ljk0MDY0MyIsInVzZXJfaWQiOiJhYWExMmY1NC1kYTJjLTQyZTMtYmFhZS0wNjRhYzlhNWEzZDUifQ.IWdQjBJNlsl5BTmEOhU3gh87x1s0Un0908xH98U-p-c' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Experience instead fish draw day.","maxScore":61,"minScore":17,"description":"Must avoid so plant environment when should itself writer north civil since listen series each much none though same north.","previewFileId":"6ddc203f-d4c6-422f-af8b-8ba88466d30b","estimatedTime":"2 weeks","createdByUserId":"aaa12f54-da2c-42e3-baae-064ac9a5a3d5"}'

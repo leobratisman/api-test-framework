@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM3LjIzOTkyMiIsInVzZXJfaWQiOiJmMjY1MzE1NS1jMGY1LTQyODktYTVhOS1iMTM0Y2QwNWIxNWYifQ.qbxqQapXpGiFaizNnsxa--al4UCR-1JYuh6ZF_3QEcA' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else popular seek.","maxScore":82,"minScore":15,"description":"Before chair player game source by list and something perhaps share.","previewFileId":"9f2706ed-5969-4b73-8fd5-bcaa114e3581","estimatedTime":"9 weeks","createdByUserId":"f2653155-c0f5-4289-a5a9-b134cd05b15f"}'

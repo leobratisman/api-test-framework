@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM4LjYwNTQ1OCIsInVzZXJfaWQiOiI1YWVmZjhmYy04NWJmLTQ3Y2UtOTYzOS02MzY0YTJlYTljMTAifQ.SC9fiwJopU6SAV5he-8GutIvFRgg_A8XmcQWIUKEI8U' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attention part necessary.","courseId":"91aab2e5-5288-4135-9691-91852cc665f2","maxScore":59,"minScore":20,"orderIndex":26,"description":"Agree door million time start goal drive traditional national five side there agree find.","estimatedTime":"9 weeks"}'

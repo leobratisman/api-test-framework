@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjQwLjEyMDYxNiIsInVzZXJfaWQiOiIwOGZiOTQyNS0xNzk4LTQ5NWYtOGJiMC05YTMwZjIwODcwOWMifQ.xOIESPOSo07XPkFPmB766NNnkFPn6DYFnHWtIRCs3dc' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either special agree.","maxScore":87,"minScore":10,"description":"Throw federal whether edge music fish only staff chance ahead.","previewFileId":"445280b6-2280-42a3-92ab-9a14b2ca639c","estimatedTime":"3 weeks","createdByUserId":"08fb9425-1798-495f-8bb0-9a30f208709c"}'

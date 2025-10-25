@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjMyLjgwNjk0OSIsInVzZXJfaWQiOiJhOTJmMjBjMi1mOGJmLTQ3MDktYjhlNC0zMTFjMzFjZmY2MzcifQ.2v8z5jdG5Z1hu5tpUuoqbgZ0z8IOcj34cKs0LZsAWvI' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer major body at.","maxScore":70,"minScore":17,"description":"Church reason wonder they wait civil whose notice mission military network concern field hundred peace nation.","previewFileId":"81ba24c3-cf75-44e2-802b-e59c2b972196","estimatedTime":"8 weeks","createdByUserId":"a92f20c2-f8bf-4709-b8e4-311c31cff637"}'

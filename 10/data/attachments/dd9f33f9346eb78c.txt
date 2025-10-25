@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDEyOjQzOjM1LjI3ODUwNyIsInVzZXJfaWQiOiI0ZDBhNzYwMy1iNTM2LTQ1ZWYtYjdlYi1iYmY2MzI3MzFjNDAifQ.V8LeNysiRLSuj5Di5WUO5VNgmHZY_WOSlcNpjKNV7Dg' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision laugh lay none ok.","maxScore":100,"minScore":12,"description":"Political ability west read but interest idea type air wide defense tree range at eat door you head investment since.","previewFileId":"3acc9b17-4cc2-4af6-8d32-432196ab6309","estimatedTime":"6 weeks","createdByUserId":"4d0a7603-b536-45ef-b7eb-bbf632731c40"}'
